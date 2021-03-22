@@ -22,7 +22,7 @@ class MeshJsonData:
 
 class WebApiImporter(Operator):
     bl_idname = "object.import_web_api"
-    bl_label = "Import"
+    bl_label = "Import WebApi"
 
     def execute(self, context):
         headers = {
