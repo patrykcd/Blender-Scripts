@@ -22,7 +22,7 @@ class MeshJsonData:
 
 class WebApiImporter(Operator):
     bl_idname = "object.import_web_api"
-    bl_label = "Import WebApi"
+    bl_label = "Import"
 
     def execute(self, context):
         headers = {
@@ -45,7 +45,7 @@ class WebApiImporter(Operator):
 
 class WebApiExporter(Operator):
     bl_idname = "object.export_web_api"
-    bl_label = "Export WebApi"
+    bl_label = "Export"
 
     def execute(self, context):
         blender_file_path = Path(bpy.data.filepath)
